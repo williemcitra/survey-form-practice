@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form Practice</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header--text">
+            <h2>Survey Practice</h2>
+        </header>
+        <form id="form" action="/" method="POST">
+            <div class="error-text" id="errorElement"></div>
+            <div class="label-input">
+                <label for="email">あなたのメールアドレスは何ですか？</label>
+            </div>
+            <div class="form-input">
+                <input class="form-input-size" type="email" name="email" id="email">
+            </div>
+            <div class="label-input">
+                <label for="name">あなたの名前は何ですか？</label>
+            </div>
+            <div class="form-input">
+                <input class="form-input-size" type="text" name="name" id="name">
+            </div>
+            <div class="label-input">
+                <label for="age">誕生日はいつですか？</label>
+            </div>
+            <div class="form-input">
+                <input class="form-input-size" type="number" name="age" id="age">
+            </div>
+            <div class="label-input">
+                <label for="study-reason">なぜ日本語を勉強するのですか？</label>
+            </div>
+            <div class="form-input">
+                <textarea class="textarea-input-size" name="study-reason" id="study-reason"></textarea>
+            </div>
+            <div>
+                <button class="submit-button" type="submit">Submit Survey</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
+<link rel="stylesheet" href="style.css">
+<link>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
+<script defer src="script.js"></script>
